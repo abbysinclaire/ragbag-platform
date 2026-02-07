@@ -1,0 +1,30 @@
+title: RAGBAG Research Platform
+description: Collaborative platform for independent research group
+baseurl: "" # Change this to your repo name like "/ragbag-platform"
+url: "" # Your GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Collections for organizing content
+collections:
+  members:
+    output: true
+    permalink: /members/:name/
+  research:
+    output: true
+    permalink: /research/:title/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "members"
+    values:
+      layout: "member"
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "research"
