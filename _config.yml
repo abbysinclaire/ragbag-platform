@@ -1,7 +1,7 @@
 title: RAGBAG Research Platform
 description: Collaborative platform for independent research group
-baseurl: "" # Change this to your repo name like "/ragbag-platform"
-url: "" # Your GitHub Pages URL
+baseurl: "/ragbag-platform" # Change this to your repo name like "/ragbag-platform"
+url: "https://github.com/abbysinclaire" # Your GitHub Pages URL
 
 # Build settings
 markdown: kramdown
